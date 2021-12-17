@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ECommerce.Service;
+using System;
 
 namespace ECommerce.View
 {
@@ -6,7 +7,8 @@ namespace ECommerce.View
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AddressService addressService = new AddressService();
+
         }
     }
 }

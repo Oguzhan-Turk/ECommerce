@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\MyRepo\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
+      "projectUniqueName": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\Projects\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
       "projectName": "ECommerce.Common",
-      "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\MyRepo\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
+      "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\Projects\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
       "packagesPath": "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\MyRepo\\ECommerce\\ECommerce.Common\\obj\\",
+      "outputPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\Projects\\ECommerce\\ECommerce.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ECR_EXCALIBUR_G770\\AppData\\Roaming\\NuGet\\NuGet.Config",

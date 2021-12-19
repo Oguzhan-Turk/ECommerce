@@ -7,7 +7,7 @@ using ECommerce.Entity;
 
 namespace ECommerce.Service.api
 {
-   public interface ISellerService<T> : IUserService<T> where T : Seller
+   public interface ISellerService<T> : IService<T> where T : Seller
     {
     }
 }

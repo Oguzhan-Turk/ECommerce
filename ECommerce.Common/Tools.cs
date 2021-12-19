@@ -18,7 +18,7 @@ namespace ECommerce.Common
             {
                 if (_connection == null)
                 {
-                    _connection = new SqlConnection($"Server=.; DataBase=NorthWind;Integrated Security=True;");
+                    _connection = new SqlConnection($"Server=.; DataBase=ECommerce;Integrated Security=True;");
                 }
                 return _connection;
             }
@@ -40,7 +40,11 @@ namespace ECommerce.Common
                 foreach (PropertyInfo property in properties)
                 {
                     object value = dataRows[property.Name];
-                    if (value != null)
+                    //if (value != null)
+                    //{
+                    //    property.SetValue(entity, value);
+                    //}
+                    if (property.CanWrite)
                     {
                         property.SetValue(entity, value);
                     }

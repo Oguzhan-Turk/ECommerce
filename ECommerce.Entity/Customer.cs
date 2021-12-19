@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace ECommerce.Entity
 {
-    public class Customer:User
+    public class Customer
     {
+        public int CustomerID { get;}
+        public string UserName { get; set; }
+        public string PhoneNumber { get; set; }
+        public Address _Address { get; set; }
+        public string EMail { get; set; }
         public int TCKN { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }

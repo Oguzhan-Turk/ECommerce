@@ -12,8 +12,6 @@ namespace ECommerce.Service.api
         bool Insert(T entity);
         bool Update(T entity);
         bool Delete(T entity);
-
-
     }
 
 }

@@ -8,6 +8,7 @@ using ECommerce.Entity;
 namespace ECommerce.Service.api
 {
     public interface IBasketService<T> : IService<T> where T : Basket
-    {
+    { 
+
     }
 }

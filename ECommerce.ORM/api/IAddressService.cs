@@ -9,5 +9,6 @@ namespace ECommerce.Service.api
 {
     public interface IAddressService<T> : IService<T> where T : Address
     {
+
     }
 }

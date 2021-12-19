@@ -14,8 +14,9 @@ namespace ECommerce.Service
     {
         public bool Delete(Address entity)
         {
-            string query = " asd asd ";
-           return Tools.SqlCommandConnectionWithQuery(query);   
+            string query = $"  -----";
+           return Tools.SqlCommandConnectionWithQuery(query);  
+
         }
 
         public bool Insert(Address entity)
@@ -25,8 +26,12 @@ namespace ECommerce.Service
 
         public List<Address> Select()
         {
-            string query = "Select * From TB_Address";
+            string query = "SELECT * FROM Address";
             DataTable dataTable = Tools.GetDataTableUseQuery(query);
+            //foreach (var item in Tools.ToList<Address>(dataTable))
+            //{
+            //    Console.WriteLine(item.AddressID +" " + item.Country + " " + item.City);
+            //}
             return Tools.ToList<Address>(dataTable);
         }
 

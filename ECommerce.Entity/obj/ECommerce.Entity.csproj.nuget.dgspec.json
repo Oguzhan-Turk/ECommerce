@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\Projects\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {}
+    "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\Projects\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {
+    "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\Projects\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
         "projectName": "ECommerce.Entity",
-        "projectPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\Projects\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
-        "packagesPath": "C:\\Users\\ECR_EXCALIBUR_G770\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ECR_EXCALIBUR_G770\\Desktop\\Projects\\ECommerce\\ECommerce.Entity\\obj\\",
+        "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
+        "packagesPath": "C:\\Users\\oguzh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ECR_EXCALIBUR_G770\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oguzh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

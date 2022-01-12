@@ -9,8 +9,9 @@ namespace ECommerce.Service.api
     public interface IService<T>
     {
         List<T> Find();
+        T FindById(int id);
         bool Insert(T entity);
-        bool Update(T entity);
+        bool Update(int id);
         bool Delete(int id);
     }
 

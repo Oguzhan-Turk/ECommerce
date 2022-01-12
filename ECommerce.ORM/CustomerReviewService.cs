@@ -24,8 +24,14 @@ namespace ECommerce.Service
         {
             throw new NotImplementedException();
         }
+        public CustomerReview FindById(int id)
+        {
+            string query = $"SELECT * FROM XX Where XX = {id} ";
 
-        public bool Update(CustomerReview entity)
+            throw new NotImplementedException();
+        }
+
+        public bool Update(int id)
         {
             throw new NotImplementedException();
         }

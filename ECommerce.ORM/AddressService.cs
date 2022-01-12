@@ -35,11 +35,21 @@ namespace ECommerce.Service
             //}
             return Tools.ToList<Address>(dataTable);
         }
-
-        public bool Update(Address entity)
+        public Address FindById(int id)
         {
-           
+            string query = $"SELECT * FROM Address Where AddressID = {id} ";
+            DataTable dataTable = Tools.GetDataTableUseQuery(query);
+            //Address selectedAddress = Tools.DataTableToEntity<Address>(dataTable);
 
+            return Tools.DataTableToEntity<Address>(dataTable);
+        }
+
+
+        public bool Update(int id)
+        {
+            Address entity = FindById(id);
+            string query = $"UPDATE Address SET Country = '{entity.Country}', City = '{entity.City}', Street = '{entity.Street}', HouseNumber = {entity.HouseNumber}, ZipCode = '{entity.ZipCode}' WHERE AddressID = {id};";
+            return Tools.SqlCommandConnectionWithQuery(query);
 
         }
     }

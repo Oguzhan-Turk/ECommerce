@@ -25,7 +25,14 @@ namespace ECommerce.Service
             throw new NotImplementedException();
         }
 
-        public bool Update(Basket entity)
+        public Basket FindById(int id)
+        {
+            string query = $"SELECT * FROM XX Where XX = {id} ";
+
+            throw new NotImplementedException();
+        }
+
+        public bool Update(int id)
         {
             throw new NotImplementedException();
         }

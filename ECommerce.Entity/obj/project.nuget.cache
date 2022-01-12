@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ctlU6g31o8a+86lVcfaUsFFvPZcsp1fKPY/MR+8e/+6lKsThybNEsMfN+qlL/Q5ebKYElhslfq8JOP63OOsZWQ==",
+  "dgSpecHash": "LpbnGJLR1WBqolyFWSOxZrdVkRkMmjtSVFXv5om9KA67L27+SNcPlZHinY8CYL3otiXgSX38xFfo3x3ClUfYIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
+  "projectFilePath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

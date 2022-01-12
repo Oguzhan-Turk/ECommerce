@@ -10,7 +10,7 @@ namespace ECommerce.Service
 {
     class CustomerService : ICustomerService<Customer>
     {
-        public bool Delete(Customer entity)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
@@ -20,7 +20,7 @@ namespace ECommerce.Service
             throw new NotImplementedException();
         }
 
-        public List<Customer> Select()
+        public List<Customer> Find()
         {
             throw new NotImplementedException();
         }

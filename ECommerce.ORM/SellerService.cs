@@ -10,7 +10,7 @@ namespace ECommerce.Service
 {
     class SellerService : ISellerService<Seller>
     {
-        public bool Delete(Seller entity)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
@@ -20,7 +20,7 @@ namespace ECommerce.Service
             throw new NotImplementedException();
         }
 
-        public List<Seller> Select()
+        public List<Seller> Find()
         {
             throw new NotImplementedException();
         }

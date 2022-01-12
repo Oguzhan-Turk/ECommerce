@@ -8,10 +8,10 @@ namespace ECommerce.Service.api
 {
     public interface IService<T>
     {
-        List<T> Select();
+        List<T> Find();
         bool Insert(T entity);
         bool Update(T entity);
-        bool Delete(T entity);
+        bool Delete(int id);
     }
 
 }

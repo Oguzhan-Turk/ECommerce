@@ -10,7 +10,7 @@ namespace ECommerce.Service
 {
     class CustomerReviewService : ICustomerRewiev<CustomerReview>
     {
-        public bool Delete(CustomerReview entity)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
@@ -20,7 +20,7 @@ namespace ECommerce.Service
             throw new NotImplementedException();
         }
 
-        public List<CustomerReview> Select()
+        public List<CustomerReview> Find()
         {
             throw new NotImplementedException();
         }

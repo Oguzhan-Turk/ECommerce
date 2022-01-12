@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj": {}
+    "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj": {
+    "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
+        "projectUniqueName": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
         "projectName": "ECommerce.Common",
-        "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
+        "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
         "packagesPath": "C:\\Users\\oguzh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\obj\\",
+        "outputPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oguzh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,18 +60,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {
+    "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
         "projectName": "ECommerce.Entity",
-        "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
+        "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj",
         "packagesPath": "C:\\Users\\oguzh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\obj\\",
+        "outputPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oguzh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,18 +114,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj": {
+    "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj",
+        "projectUniqueName": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj",
         "projectName": "ECommerce.Service",
-        "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj",
+        "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj",
         "packagesPath": "C:\\Users\\oguzh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.ORM\\obj\\",
+        "outputPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.ORM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oguzh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -142,11 +142,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj": {
-                "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj"
+              "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj": {
+                "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj"
               },
-              "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {
-                "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj"
+              "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {
+                "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj"
               }
             }
           }
@@ -175,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

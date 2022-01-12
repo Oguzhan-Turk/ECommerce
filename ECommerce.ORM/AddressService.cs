@@ -12,32 +12,35 @@ namespace ECommerce.Service
 {
     public class AddressService : IAddressService<Address>
     {
-        public bool Delete(Address entity)
+        public bool Delete(int id)
         {
-            string query = $"  -----";
-           return Tools.SqlCommandConnectionWithQuery(query);  
-
+            string query = $"DELETE FROM Address WHERE AddressID = {id};";
+            return Tools.SqlCommandConnectionWithQuery(query);
         }
 
         public bool Insert(Address entity)
         {
-            throw new NotImplementedException();
+            string query = $"INSERT INTO Address (Country, City, Street, HouseNumber, ZipCode) VALUES('{entity.Country}', '{entity.City}', '{entity.Street}', {entity.HouseNumber}, '{entity.ZipCode}'); ";
+            return Tools.SqlCommandConnectionWithQuery(query);
         }
 
-        public List<Address> Select()
+        public List<Address> Find()
         {
             string query = "SELECT * FROM Address";
             DataTable dataTable = Tools.GetDataTableUseQuery(query);
+
             //foreach (var item in Tools.ToList<Address>(dataTable))
             //{
-            //    Console.WriteLine(item.AddressID +" " + item.Country + " " + item.City);
+            //    Console.WriteLine($"Address ID : {item.AddressID}  Country : {item.Country}  City : {item.City}  Street : {item.Street}  House Number : {item.HouseNumber}  Zip Code : {item.ZipCode}");
             //}
             return Tools.ToList<Address>(dataTable);
         }
 
         public bool Update(Address entity)
         {
-            throw new NotImplementedException();
+           
+
+
         }
     }
 }

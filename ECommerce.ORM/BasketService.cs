@@ -10,7 +10,7 @@ namespace ECommerce.Service
 {
     class BasketService : IBasketService<Basket>
     {
-        public bool Delete(Basket entity)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
@@ -20,7 +20,7 @@ namespace ECommerce.Service
             throw new NotImplementedException();
         }
 
-        public List<Basket> Select()
+        public List<Basket> Find()
         {
             throw new NotImplementedException();
         }

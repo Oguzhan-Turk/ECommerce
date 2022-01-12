@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R5F/t27AK5URfKbdHUMdaA0SOaixM4wu4PuqWzaD/PGObRxFzovCearKfOw8+pABhiGr7PVnifdrXVAghG5rOA==",
+  "dgSpecHash": "nw157ufrpoHhEzqxTH15Nk6YOJ89eIVCkCB4648MLACjA1ktvGlnccfkMf4j8+mFXG1GGZz/tc6ghj7eU0wWqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
+  "projectFilePath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oguzh\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\oguzh\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -513,11 +513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.View\\ECommerce.View.csproj",
+      "projectUniqueName": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.View\\ECommerce.View.csproj",
       "projectName": "ECommerce.View",
-      "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.View\\ECommerce.View.csproj",
+      "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.View\\ECommerce.View.csproj",
       "packagesPath": "C:\\Users\\oguzh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.View\\obj\\",
+      "outputPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.View\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oguzh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -534,14 +534,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj": {
-              "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj"
+            "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj": {
+              "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Common\\ECommerce.Common.csproj"
             },
-            "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {
-              "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj"
+            "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj": {
+              "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.Entity\\ECommerce.Entity.csproj"
             },
-            "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj": {
-              "projectPath": "C:\\Users\\oguzh\\Documents\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj"
+            "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj": {
+              "projectPath": "C:\\Users\\oguzh\\dev\\WorkSpaces\\ECommerce\\ECommerce.ORM\\ECommerce.Service.csproj"
             }
           }
         }
@@ -570,7 +570,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

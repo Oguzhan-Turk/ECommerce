@@ -10,7 +10,7 @@ namespace ECommerce.Service
 {
     class CategoryService : ICategoryService<Category>
     {
-        public bool Delete(Category entity)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
@@ -20,7 +20,7 @@ namespace ECommerce.Service
             throw new NotImplementedException();
         }
 
-        public List<Category> Select()
+        public List<Category> Find()
         {
             throw new NotImplementedException();
         }

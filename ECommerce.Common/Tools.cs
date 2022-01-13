@@ -39,6 +39,7 @@ namespace ECommerce.Common
                 ET entity = new ET();
                 foreach (PropertyInfo property in properties)
                 {
+                    
                     object value = dataRows[property.Name];
                     //if (value != null)
                     //{
@@ -57,6 +58,10 @@ namespace ECommerce.Common
         {
             Type type = typeof(ET);
             ET entity = new ET();
+            //if (type.GetProperties()[0] != Array<typeof(ET)>) 
+            //{
+
+            //}
             PropertyInfo[] properties = type.GetProperties();
             foreach (DataRow dataRow in dataTable.Rows)
             {

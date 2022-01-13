@@ -84,3 +84,4 @@ C:\Users\ECR_EXCALIBUR_G770\Desktop\Projects\ECommerce\ECommerce.View\obj\Debug\
 C:\Users\ECR_EXCALIBUR_G770\Desktop\Projects\ECommerce\ECommerce.View\obj\Debug\net5.0\ref\ECommerce.View.dll
 C:\Users\ECR_EXCALIBUR_G770\Desktop\Projects\ECommerce\ECommerce.View\obj\Debug\net5.0\ECommerce.View.pdb
 C:\Users\ECR_EXCALIBUR_G770\Desktop\Projects\ECommerce\ECommerce.View\obj\Debug\net5.0\ECommerce.View.genruntimeconfig.cache
+C:\Users\ECR_EXCALIBUR_G770\Desktop\Projects\ECommerce\ECommerce.View\obj\Debug\net5.0\ECommerce.View.csproj.CopyComplete

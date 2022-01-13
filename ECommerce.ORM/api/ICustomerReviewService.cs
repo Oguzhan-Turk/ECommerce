@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ECommerce.Service.api
 {
-    public interface ICustomerRewiev<T> : IService<T> where T : CustomerReview
+    public interface ICustomerReviewService<T> : IService<T> where T : CustomerReview
     {
     }
 }

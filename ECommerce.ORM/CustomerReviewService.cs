@@ -8,7 +8,7 @@ using ECommerce.Service.api;
 
 namespace ECommerce.Service
 {
-    class CustomerReviewService : ICustomerRewiev<CustomerReview>
+    class CustomerReviewService : ICustomerReviewService<CustomerReview>
     {
         public bool Delete(int id)
         {

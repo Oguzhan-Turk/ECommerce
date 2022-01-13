@@ -9,9 +9,12 @@ namespace ECommerce.View
     {
         static void Main(string[] args)
         {
+
             AddressService addressService = new AddressService();
             List<Address> addressList = addressService.Find();
-            addressService.Find();
+
+            //addressService.Find();
+
 
             //Address addressKo = new Address();
             //addressKo.Country = "Turkey";
@@ -50,12 +53,27 @@ namespace ECommerce.View
 
 
 
-            //foreach (var item in addressList)
+            foreach (var item in addressList)
+            {
+                Console.WriteLine($"Address ID : {item.AddressID}  Country : {item.Country}  City : {item.City}  Street : {item.Street}  House Number : {item.HouseNumber}  Zip Code : {item.ZipCode}");
+            }
+
+
+            //CategoryService categoryService = new CategoryService();
+
+            //foreach (var item in categoryService.Find())
             //{
-            //    Console.WriteLine($"Address ID : {item.AddressID}  Country : {item.Country}  City : {item.City}  Street : {item.Street}  House Number : {item.HouseNumber}  Zip Code : {item.ZipCode}");
+            //    Console.WriteLine($"Category ID : {item.CategoryID}  CategoryName : {item.CategoryName}  CategoryDescription : {item.CategoryDescription}");
             //}
 
+            //Category category1 = new Category();
+            //category1.CategoryName = "Clothing";
+            //category1.CategoryDescription = "Men's and women's clothing";
+            //categoryService.Insert(category1);
 
+            //Console.WriteLine(typeof(List<>) == typeof(List<Category>));
+            //Console.WriteLine(typeof(List<Category>));
+            //Console.WriteLine(typeof(List<>));
 
         }
     }

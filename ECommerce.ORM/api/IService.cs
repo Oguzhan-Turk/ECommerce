@@ -11,7 +11,7 @@ namespace ECommerce.Service.api
         List<T> Find();
         T FindById(int id);
         bool Insert(T entity);
-        bool Update(int id);
+        bool Update(T entity);
         bool Delete(int id);
     }
 

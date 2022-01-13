@@ -15,38 +15,38 @@ namespace ECommerce.View
 
             //Address addressKo = new Address();
             //addressKo.Country = "Turkey";
-            //addressKo.City = "Kocaeli";
-            //addressKo.Street = "Sultan";
-            //addressKo.HouseNumber = 12;
-            //addressKo.ZipCode = "41400";
+            //addressKo.City = "Ankara";
+            //addressKo.Street = "Merasim";
+            //addressKo.HouseNumber = 30;
+            //addressKo.ZipCode = "06600";
 
             //addressService.Insert(addressKo);
 
             //addressService.Delete(3);
 
-            Address t = addressService.FindById(2);
-            Console.WriteLine(t.AddressID );
-            Console.WriteLine(t.Country );
-            Console.WriteLine(t.City );
-            Console.WriteLine(t.Street );
-            Console.WriteLine(t.HouseNumber );
-            Console.WriteLine(t.ZipCode );
+            //Address t = addressService.FindById(2);
+            //Console.WriteLine(t.AddressID);
+            //Console.WriteLine(t.Country);
+            //Console.WriteLine(t.City);
+            //Console.WriteLine(t.Street);
+            //Console.WriteLine(t.HouseNumber);
+            //Console.WriteLine(t.ZipCode);
 
-            t.City = "Çankırı";
-            t.Street = "Karatekin";
-            t.HouseNumber = 22;
+            //t.City = "Kocaeli";
+            //t.Street = "Bagdat";
+            //t.HouseNumber = 12;
 
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
-            addressService.Update(2);
+            //addressService.Update(t);
 
-            Console.WriteLine(t.AddressID);
-            Console.WriteLine(t.Country);
-            Console.WriteLine(t.City);
-            Console.WriteLine(t.Street);
-            Console.WriteLine(t.HouseNumber);
-            Console.WriteLine(t.ZipCode);
+            //Console.WriteLine(t.AddressID);
+            //Console.WriteLine(t.Country);
+            //Console.WriteLine(t.City);
+            //Console.WriteLine(t.Street);
+            //Console.WriteLine(t.HouseNumber);
+            //Console.WriteLine(t.ZipCode);
 
 
 

@@ -45,10 +45,10 @@ namespace ECommerce.Service
         }
 
 
-        public bool Update(int id)
+        public bool Update(Address entity)
         {
-            Address entity = FindById(id);
-            string query = $"UPDATE Address SET Country = '{entity.Country}', City = '{entity.City}', Street = '{entity.Street}', HouseNumber = {entity.HouseNumber}, ZipCode = '{entity.ZipCode}' WHERE AddressID = {id};";
+            //Address entity = FindById(id);
+            string query = $"UPDATE Address SET [Country] = '{entity.Country}', [City] = '{entity.City}', [Street] = '{entity.Street}', [HouseNumber] = {entity.HouseNumber}, [ZipCode] = '{entity.ZipCode}' WHERE AddressID = {entity.AddressID};";
             return Tools.SqlCommandConnectionWithQuery(query);
 
         }

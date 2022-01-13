@@ -31,7 +31,7 @@ namespace ECommerce.Service
             throw new NotImplementedException();
         }
 
-        public bool Update(int id)
+        public bool Update(OrderDetails entity)
         {
             throw new NotImplementedException();
         }
